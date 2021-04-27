@@ -12,7 +12,7 @@ def index(request):
 
 
 def products(request):
-    content = {
+    context = {
         'title': 'Страница товаров',
         'products': [
             {
@@ -54,4 +54,4 @@ def products(request):
 
         ]
     }
-    return render(request, 'mainapp/products.html', content)
+    return render(request, 'mainapp/products.html', context)
