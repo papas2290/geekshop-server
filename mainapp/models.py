@@ -14,6 +14,8 @@ class ProductCategory(models.Model):
     def __str__(self):
         return self.name
 
+    objects = models.Manager()
+
 
 class Product(models.Model):
     name = models.CharField(max_length=256)
@@ -26,3 +28,5 @@ class Product(models.Model):
 
     def __str__(self):
         return f'{self.name} | {self.category.name}'
+
+    objects = models.Manager()
