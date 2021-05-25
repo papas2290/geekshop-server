@@ -1,5 +1,5 @@
 from django.urls import path
-from adminapp.views import index, admin_users_read, admin_users_create, admin_users_update
+from adminapp.views import index, admin_users_read, admin_users_create, admin_users_update, admin_users_remove
 
 app_name = 'adminapp'
 
@@ -8,4 +8,5 @@ urlpatterns = [
     path('admin_users_read/', admin_users_read, name='admin_users_read'),
     path('admin_users_create/', admin_users_create, name='admin_users_create'),
     path('admin_users_update/<int:user_id>/', admin_users_update, name='admin_users_update'),
+    path('admin_users_remove/<int:user_id>/', admin_users_remove, name='admin_users_remove'),
 ]
