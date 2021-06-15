@@ -6,7 +6,6 @@ from django.template.loader import render_to_string
 from django.http import JsonResponse
 
 
-
 @login_required
 def basket_add(request, product_id=None):
     product = Product.objects.get(id=product_id)
