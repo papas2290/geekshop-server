@@ -1,0 +1,11 @@
+Content-Type: text/plain; charset="utf-8"
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Subject: Account verify
+From: django@gb.local
+To: denis@mail.ru
+Date: Sat, 19 Jun 2021 09:35:24 -0000
+Message-ID: <162409532497.10140.16731159998051434538@DESKTOP-GKNNC7S>
+
+Your link account activation http://localhost:8000/users/verify/denis@mail.ru/288380506b58885d66e44f980e0c65681461af70/
+-------------------------------------------------------------------------------
