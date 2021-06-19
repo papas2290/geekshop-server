@@ -1,0 +1,11 @@
+Content-Type: text/plain; charset="utf-8"
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Subject: Account verify
+From: django@gb.local
+To: sasha@mail.ru
+Date: Sat, 19 Jun 2021 09:38:13 -0000
+Message-ID: <162409549300.3788.509273117990902687@DESKTOP-GKNNC7S>
+
+Your link account activation http://localhost:8000/users/verify/sasha@mail.ru/dcfbb6b006d06a72190ed27f4c6a42987355e45b/
+-------------------------------------------------------------------------------
